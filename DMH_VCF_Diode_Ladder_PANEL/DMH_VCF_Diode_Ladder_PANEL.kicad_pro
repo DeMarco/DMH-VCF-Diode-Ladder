@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMH-Kosmo-10cm-PANEL.kicad_pro",
+    "filename": "DMH_VCF_Diode_Ladder_PANEL.kicad_pro",
     "version": 1
   },
   "net_settings": {
