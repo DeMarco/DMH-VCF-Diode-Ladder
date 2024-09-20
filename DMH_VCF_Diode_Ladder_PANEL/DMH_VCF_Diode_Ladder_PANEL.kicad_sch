@@ -837,6 +837,12 @@
 		)
 	)
 	(junction
+		(at 59.69 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "044c5172-566b-4c39-83ce-861a6ba342a2")
+	)
+	(junction
 		(at 101.6 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -847,6 +853,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50837325-a514-4d7c-9ecb-2e6f241435ba")
+	)
+	(junction
+		(at 76.2 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "859c3017-edcf-41e8-a9d6-1176991d3867")
 	)
 	(junction
 		(at 27.94 269.24)
@@ -1066,6 +1078,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 114.3) (xy 59.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472a0d53-6e57-4504-94bb-7adc0c30d97a")
+	)
+	(wire
+		(pts
 			(xy 127 130.81) (xy 127 139.7)
 		)
 		(stroke
@@ -1103,6 +1125,16 @@
 			(type default)
 		)
 		(uuid "71273810-a1ba-4a11-84f2-2752663578ca")
+	)
+	(wire
+		(pts
+			(xy 101.6 130.81) (xy 101.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787f85ab-e966-446a-b37c-c55377f1cb0c")
 	)
 	(wire
 		(pts
@@ -1186,6 +1218,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 114.3) (xy 59.69 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8307587-5fb1-4a8b-a9ea-736965ddc097")
+	)
+	(wire
+		(pts
 			(xy 27.94 259.08) (xy 27.94 257.81)
 		)
 		(stroke
@@ -1223,16 +1265,6 @@
 			(type default)
 		)
 		(uuid "cb0e4703-11d5-478e-bbeb-889740229335")
-	)
-	(wire
-		(pts
-			(xy 101.6 114.3) (xy 101.6 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4c2ee29-ade0-46a5-a1d1-0888d029699e")
 	)
 	(wire
 		(pts
@@ -2186,6 +2218,73 @@
 			(project ""
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 101.6 128.27 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7dfda9a-bc13-4c46-96c3-db7cee5430b3")
+		(property "Reference" "H17"
+			(at 104.14 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bus CV Amount"
+			(at 104.14 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny"
+			(at 101.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 104.14 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9e37278b-719d-4896-a7bd-a54178fbda06")
+		)
+		(instances
+			(project "DMH_VCF_Diode_Ladder_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H17")
 					(unit 1)
 				)
 			)

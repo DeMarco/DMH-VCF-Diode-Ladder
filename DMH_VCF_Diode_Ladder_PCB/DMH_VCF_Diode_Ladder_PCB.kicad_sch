@@ -62,7 +62,7 @@
 			(uuid "0197176f-d754-4695-b74f-89d14faa0aea")
 		)
 		(instances
-			(project "DMH-Kosmo-10cm-PCB"
+			(project "DMH_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "4")
 				)
@@ -101,7 +101,7 @@
 			)
 		)
 		(instances
-			(project "DMH-Kosmo-10cm-PCB"
+			(project "DMH_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "3")
 				)
@@ -140,7 +140,7 @@
 			)
 		)
 		(instances
-			(project "DMH-Kosmo-10cm-PCB"
+			(project "DMH_VCF_Diode_Ladder_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "2")
 				)
