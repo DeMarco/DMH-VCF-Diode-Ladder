@@ -843,6 +843,12 @@
 		(uuid "044c5172-566b-4c39-83ce-861a6ba342a2")
 	)
 	(junction
+		(at 73.66 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20ad0f7a-e20a-4ddb-8741-1e1b7c583bbe")
+	)
+	(junction
 		(at 101.6 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -852,7 +858,7 @@
 		(at 76.2 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50837325-a514-4d7c-9ecb-2e6f241435ba")
+		(uuid "59e50148-8ec9-4d83-a7f5-e9d05bec504d")
 	)
 	(junction
 		(at 76.2 114.3)
@@ -958,6 +964,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 181.61) (xy 76.2 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d01dfe4-2afc-49b8-86b7-a074a8b2fc20")
+	)
+	(wire
+		(pts
 			(xy 127 105.41) (xy 127 114.3)
 		)
 		(stroke
@@ -1008,6 +1024,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 190.5) (xy 97.79 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa8ee85-6a60-4a4e-90e9-de54d9f9ad8b")
+	)
+	(wire
+		(pts
 			(xy 101.6 139.7) (xy 101.6 146.05)
 		)
 		(stroke
@@ -1018,7 +1044,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 190.5) (xy 135.89 181.61)
+			(xy 148.59 190.5) (xy 148.59 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1098,6 +1124,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 181.61) (xy 76.2 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc6c2f7-0283-4dc9-a811-0e6c79b0e611")
+	)
+	(wire
+		(pts
 			(xy 101.6 92.71) (xy 101.6 114.3)
 		)
 		(stroke
@@ -1105,6 +1141,16 @@
 			(type default)
 		)
 		(uuid "63d91423-ffeb-415c-a4eb-ffa92c56260e")
+	)
+	(wire
+		(pts
+			(xy 148.59 181.61) (xy 135.89 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68fb000c-319a-4112-8758-ce42a318a3aa")
 	)
 	(wire
 		(pts
@@ -1158,16 +1204,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 181.61) (xy 85.09 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "870a13d5-90b1-496c-a4d0-fdbd47e09ece")
-	)
-	(wire
-		(pts
 			(xy 55.88 257.81) (xy 55.88 259.08)
 		)
 		(stroke
@@ -1178,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 190.5) (xy 59.69 181.61)
+			(xy 48.26 190.5) (xy 48.26 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1198,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 190.5) (xy 110.49 181.61)
+			(xy 123.19 190.5) (xy 123.19 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +1274,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 181.61) (xy 76.2 181.61)
+			(xy 59.69 181.61) (xy 73.66 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1284,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 181.61) (xy 135.89 181.61)
+			(xy 123.19 181.61) (xy 135.89 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +1304,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 190.5) (xy 85.09 181.61)
+			(xy 48.26 181.61) (xy 59.69 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37fba5c-b6c9-49cb-bd1e-3d772ae0bb06")
+	)
+	(wire
+		(pts
+			(xy 73.66 190.5) (xy 73.66 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1538,7 +1584,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
-		(at 114.3 190.5 0)
+		(at 127 190.5 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1547,7 +1593,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b05581c-a2d5-49b5-9e46-8e8bb73af4c5")
 		(property "Reference" "H7"
-			(at 116.84 187.9599 0)
+			(at 129.54 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,8 +1601,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 2"
-			(at 116.84 190.4999 0)
+		(property "Value" "CV 3"
+			(at 129.54 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1611,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
-			(at 114.3 190.5 0)
+			(at 127 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 190.5 0)
+			(at 127 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1629,7 @@
 			)
 		)
 		(property "Description" "Jack 6.35mm"
-			(at 116.84 193.0399 0)
+			(at 129.54 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,7 +1810,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 2 Amount"
+		(property "Value" "CV 3 Amount"
 			(at 129.54 126.9999 0)
 			(effects
 				(font
@@ -1957,7 +2003,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
-		(at 63.5 190.5 0)
+		(at 52.07 190.5 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1966,7 +2012,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cb7bd38-9d4b-4f1e-88b5-b5a348467848")
 		(property "Reference" "H5"
-			(at 66.04 187.9599 0)
+			(at 54.61 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +2021,7 @@
 			)
 		)
 		(property "Value" "Input"
-			(at 66.04 190.4999 0)
+			(at 54.61 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +2030,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
-			(at 63.5 190.5 0)
+			(at 52.07 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +2039,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 190.5 0)
+			(at 52.07 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2048,7 @@
 			)
 		)
 		(property "Description" "Jack 6.35mm"
-			(at 66.04 193.0399 0)
+			(at 54.61 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,7 +2204,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
-		(at 139.7 190.5 0)
+		(at 152.4 190.5 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2167,7 +2213,7 @@
 		(fields_autoplaced yes)
 		(uuid "be355d6f-53b2-4cca-ae1e-f1ae329cf305")
 		(property "Reference" "H8"
-			(at 142.24 187.9599 0)
+			(at 154.94 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2222,7 @@
 			)
 		)
 		(property "Value" "Output"
-			(at 142.24 190.4999 0)
+			(at 154.94 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2231,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
-			(at 139.7 190.5 0)
+			(at 152.4 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 190.5 0)
+			(at 152.4 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2249,7 @@
 			)
 		)
 		(property "Description" "Jack 6.35mm Output"
-			(at 142.24 193.0399 0)
+			(at 154.94 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bus CV Amount"
+		(property "Value" "(Bus) CV 2 Amount"
 			(at 104.14 126.9999 0)
 			(effects
 				(font
@@ -2285,6 +2331,73 @@
 			(project "DMH_VCF_Diode_Ladder_PANEL"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 101.6 190.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfda6344-e17c-4ed7-9b81-40e1b64848c6")
+		(property "Reference" "H18"
+			(at 104.14 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CV 2"
+			(at 104.14 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
+			(at 101.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 104.14 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "76414e84-8d85-44b4-8dfc-24c3d74e715a")
+		)
+		(instances
+			(project "DMH_VCF_Diode_Ladder_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H18")
 					(unit 1)
 				)
 			)
@@ -2426,7 +2539,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
-		(at 88.9 190.5 0)
+		(at 77.47 190.5 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2435,7 +2548,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee548467-c94f-48a0-bf37-bfba2609ca94")
 		(property "Reference" "H6"
-			(at 91.44 187.9599 0)
+			(at 80.01 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2557,7 @@
 			)
 		)
 		(property "Value" "CV 1"
-			(at 91.44 190.4999 0)
+			(at 80.01 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2566,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
-			(at 88.9 190.5 0)
+			(at 77.47 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2575,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 190.5 0)
+			(at 77.47 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2584,7 @@
 			)
 		)
 		(property "Description" "Jack 6.35mm"
-			(at 91.44 193.0399 0)
+			(at 80.01 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
