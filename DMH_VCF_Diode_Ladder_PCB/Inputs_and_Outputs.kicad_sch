@@ -635,6 +635,197 @@
 				)
 			)
 		)
+		(symbol "SynthStuff:SW_SPDT_321_OnOff"
+			(pin_names
+				(offset 1) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_321_OnOff"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Toggle_Switch_THT"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_321_OnOff_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_321_OnOff_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Off\n"
+					(at -1.524 2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 0 255 255 1)
+						)
+					)
+				)
+				(text "On"
+					(at -1.524 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 0 255 255 1)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SynthStuff:TS_Jack_6.35mm_Sw"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1064,6 +1255,20 @@
 		(color 0 0 0 0)
 		(uuid "f8b308f1-903a-4b52-b703-d8702f7bba91")
 	)
+	(no_connect
+		(at 176.53 62.23)
+		(uuid "dbefd538-c23f-436c-a7b8-eae417ec8a2d")
+	)
+	(wire
+		(pts
+			(xy 142.24 57.15) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0056d5c4-c326-4453-bcc2-dbbd2b83ddaf")
+	)
 	(wire
 		(pts
 			(xy 63.5 137.16) (xy 114.3 137.16)
@@ -1363,6 +1568,16 @@
 			(type default)
 		)
 		(uuid "4d0f3656-7012-4f90-bc9e-e21969892eb9")
+	)
+	(wire
+		(pts
+			(xy 186.69 59.69) (xy 194.31 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bcbae9-1f40-4a3c-b4b2-5922307dc51b")
 	)
 	(wire
 		(pts
@@ -1836,16 +2051,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 57.15) (xy 177.8 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea6ac409-4141-4114-8ade-0af9040830ab")
-	)
-	(wire
-		(pts
 			(xy 132.08 48.26) (xy 139.7 48.26)
 		)
 		(stroke
@@ -1874,6 +2079,28 @@
 		)
 		(uuid "fa89371c-8b73-417d-8478-b399834522b0")
 	)
+	(rectangle
+		(start 25.4 25.4)
+		(end 119.38 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8d7658d2-8a9e-4855-93a5-539448e5cc75)
+	)
+	(text "Connectors PCB"
+		(exclude_from_sim no)
+		(at 110.998 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b6077b0-2ff6-47e0-81d3-e9ca9dff7069")
+	)
 	(hierarchical_label "CV 2 Jack"
 		(shape output)
 		(at 152.4 111.76 0)
@@ -1900,7 +2127,7 @@
 	)
 	(hierarchical_label "Bus CV In"
 		(shape input)
-		(at 177.8 57.15 0)
+		(at 194.31 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2265,6 +2492,77 @@
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:SW_SPDT_321_OnOff")
+		(at 181.61 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48add57c-6397-41f3-b3fd-5f50e0ac35fa")
+		(property "Reference" "SW4"
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_321_OnOff"
+			(at 181.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
+			(at 181.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 181.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bd3a013-2f07-4057-81b0-2945b5e46d2c")
+		)
+		(pin "2"
+			(uuid "c7e4c64d-c01c-432b-980c-894263bb3e00")
+		)
+		(pin "3"
+			(uuid "a98598fb-4de4-415c-8f59-807a655597fa")
+		)
+		(instances
+			(project ""
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
