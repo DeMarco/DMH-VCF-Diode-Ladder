@@ -1758,126 +1758,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:-12V"
 			(power)
 			(pin_numbers hide)
@@ -2132,12 +2012,6 @@
 		(uuid "5c0dbacc-6209-49d5-a8a0-79f49ceb7539")
 	)
 	(junction
-		(at 35.56 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c240a29-1b5a-44e6-9e85-388586695228")
-	)
-	(junction
 		(at 34.29 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2221,6 +2095,14 @@
 		(color 0 0 0 0)
 		(uuid "f4766cd4-ab91-43e6-aee3-e52918b81b6a")
 	)
+	(no_connect
+		(at 19.05 187.96)
+		(uuid "66cf3ded-38ab-43b1-aaff-4d1cd617ae26")
+	)
+	(no_connect
+		(at 31.75 187.96)
+		(uuid "71286d32-ab4d-451e-b838-1bfb718dbea6")
+	)
 	(wire
 		(pts
 			(xy 33.02 193.04) (xy 36.83 193.04)
@@ -2260,16 +2142,6 @@
 			(type default)
 		)
 		(uuid "0c7fc39d-478b-4423-9211-b43781850e37")
-	)
-	(wire
-		(pts
-			(xy 15.24 163.83) (xy 35.56 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d1aaee5-225e-4e3e-8b5f-9c5e1b28badd")
 	)
 	(wire
 		(pts
@@ -2323,16 +2195,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 163.83) (xy 35.56 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f0f5f0e-35db-4701-a852-5e1311c30e3c")
-	)
-	(wire
-		(pts
 			(xy 17.78 120.65) (xy 21.59 120.65)
 		)
 		(stroke
@@ -2350,16 +2212,6 @@
 			(type default)
 		)
 		(uuid "212e44dc-9021-43bf-a45c-c3d5d133c3e2")
-	)
-	(wire
-		(pts
-			(xy 35.56 187.96) (xy 48.26 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "232017f9-282c-4d43-b483-335f5dd5e032")
 	)
 	(wire
 		(pts
@@ -2523,16 +2375,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 187.96) (xy 35.56 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cec0e6f-cdf4-43c1-a7d0-44556b2166d8")
-	)
-	(wire
-		(pts
 			(xy 88.9 101.6) (xy 88.9 113.03)
 		)
 		(stroke
@@ -2670,26 +2512,6 @@
 			(type default)
 		)
 		(uuid "83be17eb-43e4-4a32-9ab8-7bb140604fed")
-	)
-	(wire
-		(pts
-			(xy 19.05 187.96) (xy 15.24 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86c7c62b-4a97-4af5-b682-c21d554fcab5")
-	)
-	(wire
-		(pts
-			(xy 48.26 195.58) (xy 49.53 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8777520f-295d-4ac7-890c-8048a9482300")
 	)
 	(wire
 		(pts
@@ -2923,16 +2745,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 195.58) (xy 59.69 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caccf448-a031-4dc4-9cab-b23f05a94a40")
-	)
-	(wire
-		(pts
 			(xy 21.59 137.16) (xy 21.59 146.05)
 		)
 		(stroke
@@ -3013,16 +2825,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 187.96) (xy 48.26 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2779a02-34a4-44e9-ba85-18db1cca14cd")
-	)
-	(wire
-		(pts
 			(xy 63.5 95.25) (xy 63.5 101.6)
 		)
 		(stroke
@@ -3080,16 +2882,6 @@
 			(type default)
 		)
 		(uuid "e8969faf-4388-4713-b88a-e6d8f9a163e4")
-	)
-	(wire
-		(pts
-			(xy 15.24 187.96) (xy 15.24 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebcb98d4-8d10-4145-9ced-7f7f1c67daa9")
 	)
 	(wire
 		(pts
@@ -3764,73 +3556,6 @@
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 59.69 195.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51b69450-8e1c-43e2-9cdd-ee0126422db4")
-		(property "Reference" "#PWR03"
-			(at 55.88 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 63.5 195.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eeea9ae8-d136-430a-9b26-5ee2bbe310d1")
-		)
-		(instances
-			(project "DMH-Kosmo-10cm-PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4584,74 +4309,6 @@
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:Power_Bus_Schotty_+")
-		(at 53.34 195.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6b0dd0d-6a24-4d25-aa9d-c63d68b32d16")
-		(property "Reference" "D3"
-			(at 53.6575 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SB140+"
-			(at 53.6575 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 53.34 191.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
-			(at 53.34 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 53.34 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76560a24-18d1-4514-90af-4f78cf33b8ab")
-		)
-		(pin "1"
-			(uuid "baf562f8-b5ce-4cde-a100-af00cf7703d2")
-		)
-		(instances
-			(project "DMH-Kosmo-10cm-PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "D3")
 					(unit 1)
 				)
 			)
